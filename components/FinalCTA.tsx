@@ -12,11 +12,11 @@ export function FinalCTA() {
         <div className="container-shell relative">
           <div className="max-w-3xl">
             <h2 className="font-display text-3xl font-semibold leading-tight text-balance sm:text-5xl">
-              Ready to build a stronger digital presence?
+              Let&apos;s build something your business can grow on.
             </h2>
             <p className="mt-5 max-w-2xl text-pretty text-lg leading-8 text-cosaq-muted">
-              Let&apos;s create a website and digital foundation designed to help
-              your business grow.
+              Modern digital solutions designed to create trust, visibility and
+              long-term growth.
             </p>
             <div className="mt-8">
               <ButtonLink href="mailto:hello@cosaqdigital.com">
