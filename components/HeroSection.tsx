@@ -25,8 +25,8 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-6 max-w-xl text-pretty text-lg leading-8 text-cosaq-muted sm:text-xl">
-          We build modern websites and digital solutions that help businesses
-          create trust, attract customers, and grow online.
+          We build modern digital experiences designed to help businesses grow,
+          build trust and stand out online.
         </p>
 
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
