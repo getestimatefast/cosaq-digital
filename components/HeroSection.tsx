@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="container-shell relative z-10 grid min-h-[88vh] scroll-mt-32 items-center gap-14 pb-16 pt-40 sm:pt-36 md:scroll-mt-28 lg:grid-cols-[0.95fr_1.05fr] lg:gap-12 lg:pt-36"
+      className="container-shell relative z-10 grid min-h-[760px] scroll-mt-32 items-center gap-12 pb-20 pt-32 sm:pt-32 md:scroll-mt-28 lg:grid-cols-[0.95fr_1.05fr] lg:gap-12 lg:pb-24 lg:pt-32"
     >
       <motion.div
         initial={{ opacity: 0, y: 28 }}
