@@ -2,34 +2,34 @@ import { SectionReveal } from "@/components/SectionReveal";
 
 const services = [
   {
-    title: "Website Development",
+    title: "Business Websites",
     description:
-      "Modern, responsive websites built with clean architecture and a premium user experience.",
+      "Premium websites designed to build trust, authority and long-term digital presence.",
   },
   {
-    title: "Landing Pages",
+    title: "Lead Generation Pages",
     description:
-      "Focused pages designed to communicate clearly, build trust and convert qualified visitors.",
+      "Conversion-focused pages designed to turn visitors into qualified leads.",
   },
   {
-    title: "Portfolio Websites",
+    title: "Premium Brand Presence",
     description:
-      "Sophisticated online presentations for professionals, creators and service businesses.",
+      "Sophisticated digital experiences that elevate how your business is perceived online.",
   },
   {
-    title: "Digital Presence",
+    title: "Smart Automation",
     description:
-      "Brand-aligned foundations that make your business easier to understand, find and trust.",
+      "Streamlined systems that save time, improve workflows and support business growth.",
   },
   {
-    title: "Automation Systems",
+    title: "Digital Presence Strategy",
     description:
-      "Practical workflows that reduce repetitive tasks and connect the tools your business uses.",
+      "Clear positioning, structure and online presence built to make your business easier to trust.",
   },
   {
-    title: "Lead Generation",
+    title: "Growth Systems",
     description:
-      "Digital systems structured to capture interest and move potential clients toward action.",
+      "Digital foundations designed to connect visibility, trust and conversion.",
   },
 ];
 
@@ -42,7 +42,7 @@ export function ServicesSection() {
             Services
           </p>
           <h2 className="mt-4 font-display text-3xl font-semibold leading-tight text-balance sm:text-5xl">
-            Digital foundations built with intention.
+            Digital solutions built around real business goals.
           </h2>
         </div>
 
