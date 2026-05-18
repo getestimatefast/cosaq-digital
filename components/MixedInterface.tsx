@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 const flowSteps = ["Strategy", "Design", "Build", "Launch"];
 const stats = [
-  { label: "Trust", value: "92%" },
-  { label: "Leads", value: "+38%" },
-  { label: "Speed", value: "1.2s" },
+  { label: "Credibility", value: "Trust" },
+  { label: "Visibility", value: "Reach" },
+  { label: "Experience", value: "Fast" },
 ];
 
 export function MixedInterface() {
@@ -72,16 +72,16 @@ export function MixedInterface() {
         className="glass-panel absolute right-0 top-48 w-[48%] rounded-[1.5rem] p-4"
       >
         <div className="flex items-center justify-between">
-          <p className="text-xs uppercase tracking-[0.18em] text-cosaq-muted">Pipeline</p>
+          <p className="text-xs uppercase tracking-[0.18em] text-cosaq-muted">Lead Flow</p>
           <span className="rounded-full bg-cosaq-blue/12 px-2.5 py-1 text-xs text-cosaq-blue">
             Active
           </span>
         </div>
         <div className="mt-4 flex items-end gap-2">
-          <p className="font-display text-4xl font-semibold">284</p>
-          <p className="pb-1 text-sm font-medium text-cosaq-blue">+18%</p>
+          <p className="font-display text-4xl font-semibold">Clear</p>
+          <p className="pb-1 text-sm font-medium text-cosaq-blue">Path</p>
         </div>
-        <p className="mt-1 text-xs text-cosaq-muted">qualified actions tracked</p>
+        <p className="mt-1 text-xs text-cosaq-muted">from visitor to action</p>
         <div className="mt-5 flex h-24 items-end gap-2">
           {[34, 52, 44, 72, 58, 88, 76].map((height, index) => (
             <span
@@ -131,7 +131,7 @@ export function MixedInterface() {
           <div>
             <div className="mb-2 flex justify-between text-xs text-cosaq-muted">
               <span>Visibility</span>
-              <span>82%</span>
+              <span>Built</span>
             </div>
             <div className="h-2 rounded-full bg-white/[0.08]">
               <div className="h-2 w-[82%] rounded-full bg-cosaq-blue" />
@@ -140,7 +140,7 @@ export function MixedInterface() {
           <div>
             <div className="mb-2 flex justify-between text-xs text-cosaq-muted">
               <span>Trust</span>
-              <span>74%</span>
+              <span>Ready</span>
             </div>
             <div className="h-2 rounded-full bg-white/[0.08]">
               <div className="h-2 w-[74%] rounded-full bg-white/40" />
