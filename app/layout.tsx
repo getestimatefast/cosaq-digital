@@ -3,7 +3,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
-const googleTagId = "G-6JCYQTH2XQ";
+const googleTagId = "G-JYT86CVGNS";
 
 const inter = Inter({
   subsets: ["latin"],
